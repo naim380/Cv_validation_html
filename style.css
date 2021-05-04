@@ -1,0 +1,89 @@
+.container {
+    position: sticky; /*compétence Positionner les éléments d'une page web en CSS -->*/
+    top: 0;
+    align-content: center;
+}
+h1 {
+    width: auto; /*compétence manipuler les modèles de boîtes -->*/
+    height: 100px;
+    padding: 30px;
+    margin: 30px;
+    border: solid 3px #3a3ab8;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        width: 300px;
+        height: 100px;
+        margin: 10px;
+        border: solid 3px #3a3ab8;
+        position: relative;
+        top: 60%;
+        text-align: center;
+        background-color: coral;
+        font-size: 100%; /*responsive lettres change de taille -->*/
+    }
+}
+
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#info {
+    display: flex; /*Positionner les éléments d'une page web avec Flexbox*/
+    justify-content: space-between;
+    vertical-align: center;
+}
+
+.info-image {
+    width: 200px;
+}
+
+.info-image img {
+    width: 100%;
+}
+
+#exp table {
+    width: 100%;
+}
+
+#exp .date {
+    width: 15%;
+}
+
+#exp .entreprise {
+    width: 15%;
+}
+
+#exp .description {
+    width: 70%;
+}
+
+p {
+    color: rgb(60, 45, 161);
+}
+
+table {
+    border: medium solid #0dda29;
+    width: 50%;
+}
+
+td, th {
+    border: thin solid #000000;
+    width: 50%;
+}
+
+#fin {
+    border: thin solid #000000;
+    width: 50%;
+}
+
+td, th {
+    border: thin solid #000000;
+    width: 50%;
+}
+body{
+    background-color: aliceblue;
+}
